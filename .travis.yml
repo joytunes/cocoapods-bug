@@ -5,4 +5,5 @@ before_install:
 - gem uninstall cocoapods -a
 - gem install cocoapods --pre
 - pod --version
+- pod install --repo-update
 xcode_workspace: cocoapods-bug.xcworkspace
